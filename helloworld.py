@@ -1,0 +1,2 @@
+# basic
+print("Hello, World!")
