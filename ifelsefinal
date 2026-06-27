@@ -7,3 +7,13 @@ if a + b > c and a + c > b and b + c > a:
     print("Valid Triangle")
 else:
     print("Invalid Triangle")
+
+# loan eligibility
+age = int(input("Enter age: "))
+salary = float(input("Enter monthly salary: "))
+credit_score = int(input("Enter credit score: "))
+
+if age >= 21 and salary >= 25000 and credit_score >= 700:
+    print("Loan Approved")
+else:
+    print("Loan Rejected")
