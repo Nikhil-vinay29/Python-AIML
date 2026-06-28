@@ -17,3 +17,17 @@ if age >= 21 and salary >= 25000 and credit_score >= 700:
     print("Loan Approved")
 else:
     print("Loan Rejected")
+
+# Quadratic equation solver
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+c = int(input("Enter value of c: "))
+
+d = b**2 - 4*a*c
+
+if d > 0:
+    print("Roots are Real and Different")
+elif d == 0:
+    print("Roots are Real and Equal")
+else:
+    print("Roots are Imaginary")
