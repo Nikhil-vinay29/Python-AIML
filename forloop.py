@@ -12,3 +12,26 @@ for i in range(2, 51, 2):
 for i in range(1, 50, 2):
     print(i)    
 
+# This is a simple for loop that calculates the factorial of a number entered by the user.
+n = int(input("Enter a number: "))
+
+factorial = 1
+
+for i in range(1, n + 1):
+    factorial = factorial * i
+
+print("Factorial =", factorial)
+
+# This is a simple for loop that prints the Fibonacci series up to n terms entered by the user.
+n = int(input("Enter the number of terms: "))
+
+a = 0
+b = 1
+
+print("Fibonacci Series:")
+
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
