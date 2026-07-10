@@ -44,3 +44,12 @@ if set1.issubset(set2):
     print("set1 is a subset of set2")
 else:
     print("set1 is not a subset of set2")
+
+# Check if a set is a superset of another set
+set1 = {10, 20, 30, 40, 50}
+set2 = {10, 20, 30}
+
+if set1.issuperset(set2):
+    print("set1 is a superset of set2")
+else:
+    print("set1 is not a superset of set2")
