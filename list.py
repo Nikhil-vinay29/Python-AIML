@@ -40,3 +40,44 @@ for i in numbers:
         second = i
 
 print("Second Largest =", second)
+
+# Find Sum of All Elements in a List
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for i in numbers:
+    total = total + i
+
+print("Sum =", total)
+
+# Count Even and Odd Numbers in a List
+
+numbers = [10, 15, 22, 37, 40, 53]
+
+even = 0
+odd = 0
+
+for i in numbers:
+    if i % 2 == 0:
+        even = even + 1
+    else:
+        odd = odd + 1
+
+print("Even Numbers =", even)
+print("Odd Numbers =", odd)
+
+
+# Find Common Elements Between Two Lists
+
+list1 = [10, 20, 30, 40, 50]
+list2 = [30, 40, 50, 60, 70]
+
+common = []
+
+for i in list1:
+    if i in list2:
+        common.append(i)
+
+print("Common Elements =", common)
