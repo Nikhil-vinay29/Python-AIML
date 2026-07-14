@@ -81,3 +81,20 @@ for i in list1:
         common.append(i)
 
 print("Common Elements =", common)
+
+
+# Find Positive and Negative Numbers in a List
+
+numbers = [10, -5, 20, -15, 30, -8]
+
+positive = []
+negative = []
+
+for i in numbers:
+    if i > 0:
+        positive.append(i)
+    else:
+        negative.append(i)
+
+print("Positive Numbers =", positive)
+print("Negative Numbers =", negative)
