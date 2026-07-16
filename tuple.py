@@ -45,3 +45,17 @@ for i in numbers:
         second = i
 
 print("Second Largest =", second)
+
+# # 1. Create a basic tuple
+fruits = ("apple", "banana", "cherry")
+print("Tuple content:", fruits)
+
+# 2. Access elements using zero-based indexing
+print("First fruit:", fruits[0])   # Output: apple
+print("Last fruit:", fruits[-1])    # Output: cherry
+
+# 3. Check the length of the tuple
+print("Total items:", len(fruits))  # Output: 3
+
+# 4. Check the data type
+print("Data type:", type(fruits))   # Output: <class 'tuple'>
