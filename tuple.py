@@ -59,3 +59,19 @@ print("Total items:", len(fruits))  # Output: 3
 
 # 4. Check the data type
 print("Data type:", type(fruits))   # Output: <class 'tuple'>
+
+
+
+# Program 4: Find the Sum and Average of Elements in a Tuple
+
+numbers = (10, 20, 30, 40, 50)
+
+total = 0
+
+for i in numbers:
+    total += i
+
+average = total / len(numbers)
+
+print("Sum =", total)
+print("Average =", average)
