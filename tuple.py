@@ -75,3 +75,17 @@ average = total / len(numbers)
 
 print("Sum =", total)
 print("Average =", average)
+
+
+
+# Program 5: Reverse a Tuple
+
+numbers = (10, 20, 30, 40, 50)
+
+reversed_tuple = ()
+
+for i in range(len(numbers) - 1, -1, -1):
+    reversed_tuple += (numbers[i],)
+
+print("Original Tuple =", numbers)
+print("Reversed Tuple =", reversed_tuple)
