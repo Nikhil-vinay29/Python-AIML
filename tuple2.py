@@ -16,3 +16,22 @@ difference = largest - smallest
 print("Largest =", largest)
 print("Smallest =", smallest)
 print("Difference =", difference)
+
+
+# Program 7: Check Whether an Element Exists in a Tuple
+
+numbers = (10, 20, 30, 40, 50)
+
+element = int(input("Enter the element to search: "))
+
+found = False
+
+for i in numbers:
+    if i == element:
+        found = True
+        break
+
+if found:
+    print(element, "is present in the tuple.")
+else:
+    print(element, "is not present in the tuple.")
