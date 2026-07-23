@@ -35,3 +35,21 @@ if found:
     print(element, "is present in the tuple.")
 else:
     print(element, "is not present in the tuple.")
+
+
+# Program 8: Find the Index of an Element in a Tuple (Without Using index())
+
+numbers = (10, 20, 30, 40, 50)
+
+element = int(input("Enter the element to find: "))
+
+found = False
+
+for i in range(len(numbers)):
+    if numbers[i] == element:
+        print("Index =", i)
+        found = True
+        break
+
+if not found:
+    print("Element not found")
