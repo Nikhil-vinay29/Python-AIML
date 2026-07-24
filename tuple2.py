@@ -53,3 +53,20 @@ for i in range(len(numbers)):
 
 if not found:
     print("Element not found")
+
+
+# Program 9: Count Even and Odd Numbers in a Tuple
+
+numbers = (12, 7, 18, 25, 30, 41, 56)
+
+even = 0
+odd = 0
+
+for i in numbers:
+    if i % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+print("Even Numbers =", even)
+print("Odd Numbers =", odd)
