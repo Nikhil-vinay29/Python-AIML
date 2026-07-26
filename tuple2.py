@@ -70,3 +70,17 @@ for i in numbers:
 
 print("Even Numbers =", even)
 print("Odd Numbers =", odd)
+
+
+# Program 10: Create a New Tuple with Only Positive Numbers
+
+numbers = (-10, 25, -5, 40, 0, 18, -7)
+
+positive = ()
+
+for i in numbers:
+    if i > 0:
+        positive += (i,)
+
+print("Original Tuple =", numbers)
+print("Positive Numbers Tuple =", positive)
