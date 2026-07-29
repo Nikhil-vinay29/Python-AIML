@@ -70,3 +70,24 @@ for i in numbers:
         frequency[i] = 1
 
 print("Frequency =", frequency)
+
+
+# Program 12: Find Key with the Minimum Value
+
+marks = {
+    "Arun": 85,
+    "Ravi": 72,
+    "Kiran": 90,
+    "Rahul": 68
+}
+
+lowest_name = ""
+lowest_marks = 100
+
+for name in marks:
+    if marks[name] < lowest_marks:
+        lowest_marks = marks[name]
+        lowest_name = name
+
+print("Lowest Student =", lowest_name)
+print("Marks =", lowest_marks)
