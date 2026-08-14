@@ -93,3 +93,12 @@ for i in range(1, n + 1):
     for j in range(i):
         print(chr(65 + j), end=" ")
     print()
+
+# Pattern 15: Same Number in Each Row
+
+n = 5
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print(i, end=" ")
+    print()
